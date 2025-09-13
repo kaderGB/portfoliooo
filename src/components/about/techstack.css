@@ -1,0 +1,25 @@
+.space{
+    border: none;
+    height: 40px;
+}
+.techstack{
+    margin-bottom: 5rem;
+    top: 300px;
+}
+.tech_title{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5rem;
+    font-weight: 100;
+    
+}
+.tech_icon{
+    width: 60px;
+    height: 60px;
+    margin-top: 60px;
+    border-radius: 20px;
+}
+.tech_list{
+    display: flex;
+    justify-content: space-around;
+}

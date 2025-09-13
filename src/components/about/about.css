@@ -1,0 +1,169 @@
+.about_container{
+    grid-template-columns: 3fr 9fr;
+    column-gap: 1.875rem;
+    
+}
+
+.section_title{
+    font-size: 80px;
+    text-align: center;
+     font-weight: 100;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colonnes de taille égale */
+  gap: 20px; /* Espace entre les colonnes */
+}
+
+.column {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.column h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.column h3 {
+  font-size: 1.2rem;
+  color: #4b5563; /* Gris pour un look moderne */
+  margin-bottom: 1rem;
+}
+
+.list {
+  list-style: disc;
+  padding-left: 1.5rem;
+  text-align: left;
+}
+
+.list li {
+  margin-bottom: 0.5rem;
+}
+
+.p_about{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 350;
+}
+
+
+
+.about_data{
+    padding: 1.875rem;
+    background-color:var(--container-color) ;
+    box-shadow:var(--shadow);
+    border-radius:var(--border-radius) ;
+    grid-template-columns: repeat(2, 1fr) ;
+    column-gap:1.875rem ;
+    align-items:flex-start ;
+    position: relative;
+}
+
+
+
+.about_data::before{
+    content: "";
+    height: 0;
+    width: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 15px solid var(--container-color);
+    position: absolute;
+    left: -0.93rem;
+    top: 20%;
+}
+
+
+
+
+.icon_a{
+    color: aquamarine;
+}
+
+.about_description{
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.about_img{
+    height: 150px;
+    width: 150px;
+    border-radius: 200px;
+}
+
+.about_skills{
+    row-gap: 1.25rem;
+}
+
+.skills_titles{
+display:flex ;
+justify-content:space-between ;
+margin-bottom: 1rem;
+}
+
+.skills_name{
+font-size: var(--normal-font-size);
+font-weight: var(--font-medium);
+}
+
+.skills_number{
+    line-height: 1.2;
+}
+
+.skills_bar, .skills_percentage{
+    height: 7px;
+    border-radius: 0.25rem;
+}
+
+.skills_bar{
+background-color: #f1f1f1;
+}
+
+.skills_percentage{
+display: block;
+}
+
+.management{
+    width: 90%;
+    background-color: rgb(255, 209, 92);
+}
+
+.uxui{
+    width: 90%;
+    background-color: rgb(255, 76, 96);
+}
+
+.software{
+    width: 90%;
+    background-color: rgb(108, 108, 299);
+}
+
+.about_boxes{
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1.875rem;
+    margin-top: 4.35rem;
+    margin-bottom: 10rem;
+}
+
+.about_box{
+    display: flex;
+    column-gap: 1.5rem;
+}
+
+.about_icon{
+    font-size: var(--h1-font-size);
+    color: #dedeea;
+}
+
+.about_title{
+    font-size: 1.875rem;
+     font-weight: 350;
+}
+
+
