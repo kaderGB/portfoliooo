@@ -23,3 +23,29 @@
     display: flex;
     justify-content: space-around;
 }
+
+
+@media screen and (max-width: 375px){
+    .tech_title{
+        font-size: 30px;
+    }
+
+    
+
+    .tech_list{
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #tech_list{
+        display: inline-block;
+    }
+
+    .shapes{
+        visibility: hidden;
+    }
+
+    
+
+    
+}

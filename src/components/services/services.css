@@ -92,7 +92,7 @@ color: var(--text-color);
 
 #work_profil{
     height: 400px;
-    width: 250px;
+    width: 300px;
     border-radius: 10px;
 }
 
@@ -156,4 +156,66 @@ color: var(--text-color);
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+
+@media screen and (max-width: 1024px){
+    .services_container{
+        grid-template-columns: repeat(2, 330px);
+        justify-content: center;
+        row-gap: 1.875rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .services_container{
+        grid-template-columns: 310px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .services_container{
+        grid-template-columns: 1fr;
+    }
+
+    .cards_all1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards_all2{
+        display: flex;
+        flex-direction: column;
+    }
+
+   #workwith{
+    display: flex;
+        flex-direction: column;
+   }
+
+   
+
+   #work_profil{
+    width: 230px;
+    height: 300px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+   }
+
+   .workwithme{
+
+    margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     justify-content: center;
+     
+    
+   }
+
+   
+
 }

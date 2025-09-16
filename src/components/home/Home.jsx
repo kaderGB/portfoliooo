@@ -12,7 +12,7 @@ const Home = () => {
       <section className='home container' id="home">
         <div className="intro">
           <img src={Me} alt="" className="home_img" />
-          <h1 id='intro_title'>KADERGB</h1>
+        
           <h1 className="home_name">KADER ISSA GOULBI</h1>
           <span className="home_education">Project Manager, UxUi Designer & Software Engineer</span>
           <br/>

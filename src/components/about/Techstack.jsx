@@ -48,6 +48,7 @@ const Techstack = () => {
     <div className='techstack' id="techstack">
       <div className='space'></div>
       <h1 className='tech_title'>Tech Stack</h1>
+      <div id='tech_list'>
       <div className='tech_list'>
          <img src={IMG2} alt="" className='tech_icon'/>
         <img src={IMG3} alt="" className='tech_icon'/>
@@ -59,9 +60,9 @@ const Techstack = () => {
               <img src={IMG8} alt="" className='tech_icon'/>
                <img src={IMG9} alt="" className='tech_icon'/>
                 <img src={IMG10} alt="" className='tech_icon'/>
-                 <img src={IMG11} alt="" className='tech_icon'/>
-                  <img src={IMG12} alt="" className='tech_icon'/>
-                   <img src={IMG13} alt="" className='tech_icon'/>
+        <img src={IMG11} alt="" className='tech_icon'/>
+        <img src={IMG12} alt="" className='tech_icon'/>
+         <img src={IMG13} alt="" className='tech_icon'/>
       </div>
 
 
@@ -101,7 +102,7 @@ const Techstack = () => {
             <img src={IMG37} alt="" className='tech_icon'/>
                    
       </div>
-
+</div>
 
 
     </div>
