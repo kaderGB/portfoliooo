@@ -8,7 +8,7 @@ import Shapes from './Shapes'
 
 const Home = () => {
   return (
-    <div>
+    <div id="main_home">
       <section className='home container' id="home">
         <div className="intro">
           <img src={Me} alt="" className="home_img" />

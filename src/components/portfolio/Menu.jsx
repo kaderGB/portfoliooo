@@ -2,7 +2,7 @@ import Work1 from '../../assets/work-1.svg'
 import Work2 from '../../assets/work-2.svg'
 import Work3 from '../../assets/work-3.svg'
 import Work4 from '../../assets/work-4.svg'
-import Work5 from '../../assets/work-5.svg'
+import Work5 from '../../assets/jiji.png'
 import Work6 from '../../assets/work-6.svg'
 
 
@@ -10,20 +10,20 @@ const Menu = [
   {
     id: 1,
     image: Work1,
-    title: "Project Management Illustration",
-    category: "Design",
+    title: "OnGoing Project with Scrum",
+    category: "Project",
   },
   {
     id: 2,
     image: Work2,
-    title: "Guest App Walkthrough Screens",
-    category: "Art",
+    title: "Xteam Project",
+    category: "Code",
   },
   {
     id: 3,
     image: Work3,
     title: "Delivery App Wireframe",
-    category: "Branding",
+    category: "Learn with me",
   },
   
   {
@@ -36,15 +36,15 @@ const Menu = [
   {
     id: 5,
     image: Work5,
-    title: "iMac Mockup Design",
-    category: "Creative",
+    title: "UxUi Case Study (JiJi App)",
+    category: "UxUi",
   },
   
   {
     id: 6,
     image: Work6,
-    title: "Game Store App Concept",
-    category: "Art",
+    title: "Client Portfolio",
+    category: "Code",
   },
 ];
 

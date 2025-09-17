@@ -2,7 +2,9 @@ import React from 'react'
 
 const Aboutbox = () => {
   return (
-    <div className='about_boxes grid'>
+    <div className='about_boxes grid'  data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" data-aos-duration="3000">
       <div className="about_box">
         <i className="about_icon fa-solid fa-fire-flame-curved icon_a" ></i>
 

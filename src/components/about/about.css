@@ -5,9 +5,9 @@
 }
 
 .section_title{
-    font-size: 80px;
+    font-size: 90px;
     text-align: center;
-     font-weight: 100;
+     font-weight: 400;
 }
 
 .grid {
@@ -50,6 +50,8 @@
     margin-top: 20px;
     margin-bottom: 20px;
     font-weight: 350;
+    font-size: 21px;
+    text-align: justify;
 }
 
 
@@ -89,6 +91,7 @@
 .about_description{
     margin-bottom: 1rem;
     text-align: justify;
+    font-size: 21px;
 }
 
 .about_img{
@@ -162,8 +165,12 @@ display: block;
 }
 
 .about_title{
-    font-size: 1.875rem;
-     font-weight: 350;
+    font-size: 40px;
+     font-weight: 400;
+}
+
+.about_subtitle{
+    font-size: 18px;
 }
 
 

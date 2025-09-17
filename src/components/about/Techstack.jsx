@@ -31,7 +31,7 @@ import IMG29 from "../../assets/github-color-svgrepo-com 2.png"
 import IMG30 from "../../assets/microsoft-Project-e1601672844773.png"
 import IMG31 from "../../assets/logo.png"
 import IMG32 from "../../assets/chatgpt-logo-chat-gpt-icon-on-green-background-free-vector.jpg"
-import IMG33 from "../../assets/grok-logo-VY08DVbD.jpg"
+import IMG33 from "../../assets/grok-logo-VY08DVbD-removebg-preview.png"
 import IMG34 from "../../assets/google-gemini-fjwerd7ldxwt4c010vyoh.webp"
 import IMG35 from "../../assets/Google-Bard-1.png"
 import IMG36 from "../../assets/SEOPTIMER-3.png"
@@ -45,7 +45,7 @@ import IMG37 from "../../assets/Microsoft_Copilot_Icon.svg.png"
 import './techstack.css'
 const Techstack = () => {
   return (
-    <div className='techstack' id="techstack">
+    <div className='techstack' id="techstack" data-aos="zoom-in-left" data-aos-duration="3000">
       <div className='space'></div>
       <h1 className='tech_title'>Tech Stack</h1>
       <div id='tech_list'>

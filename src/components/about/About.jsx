@@ -6,7 +6,7 @@ import Techstack from '../about/Techstack'
 
 const About = () => {
   return (
-    <section className='about container section' id="about" >
+    <section className='about container section' id="about"  data-aos="zoom-in" data-aos-duration="3000">
       <h2 className="section_title">About Me</h2>
       <p className='p_about'>Hello! I'm Kader, a passionate software engineer, UX/UI designer, and IT project manager with over 8 years of experience blending code, creativity, and strategy to build impactful digital solutions. My journey started in the trenches of coding, where I fell in love with turning complex problems into elegant, scalable software. Along the way, I discovered the magic of user-centered design—crafting intuitive interfaces that make technology feel effortless and human. Now, as a project manager, I orchestrate teams to deliver projects on time, under budget, and with a focus on real-world results.</p>
 <p className='p_about'>What drives me? Empathy and efficiency. I emphasize understanding users deeply, whether through wireframes, prototypes, or data-driven iterations, to create products that not only work but delight.</p>

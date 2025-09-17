@@ -14,10 +14,10 @@
     
 }
 .tech_icon{
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     margin-top: 60px;
-    border-radius: 20px;
+    border-radius: 0px;
 }
 .tech_list{
     display: flex;

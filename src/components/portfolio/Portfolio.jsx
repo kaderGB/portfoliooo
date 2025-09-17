@@ -17,11 +17,11 @@ const Portfolio = () => {
       <h2 className='section_title'>Recent Works</h2>
 
 <div className="work_filters">
-  <span className='work_item' onClick={()=>setItems(Menu)}>Everything</span>
-   <span className='work_item' onClick={()=>filterItem("Creative")}>Creative</span>
-    <span className='work_item' onClick={()=>filterItem("Art")}>Art</span>
-     <span className='work_item' onClick={()=>filterItem("Design")}>Design</span>
-      <span className='work_item' onClick={()=>filterItem("Branding")}>Branding</span>
+  <span className='work_item' onClick={()=>setItems(Menu)}>All</span>
+   <span className='work_item' onClick={()=>filterItem("UxUi")}>UxUi</span>
+    <span className='work_item' onClick={()=>filterItem("Code")}>Software Engineering</span>
+     <span className='work_item' onClick={()=>filterItem("Project")}>Project Management</span>
+      <span className='work_item' onClick={()=>filterItem("Learn with me")}>Learn</span>
 </div>
 
 <div className="work_container grid">
